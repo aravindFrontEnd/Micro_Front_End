@@ -1,0 +1,28 @@
+{
+  "name": "angular-app",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "webpack serve",
+    "build": "webpack --mode production"
+  },
+  "dependencies": {
+    "@angular/common": "^16.1.8",
+    "@angular/compiler": "^16.1.8",
+    "@angular/core": "^16.1.8",
+    "@angular/platform-browser": "^16.1.8",
+    "@angular/platform-browser-dynamic": "^16.1.8",
+    "rxjs": "^7.8.1",
+    "zone.js": "~0.13.1"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^16.1.8",
+    "@angular/compiler-cli": "^16.1.8",
+    "@types/node": "^20.4.5",
+    "html-webpack-plugin": "^5.5.3",
+    "ts-loader": "^9.4.4",
+    "typescript": "~5.1.6",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}
